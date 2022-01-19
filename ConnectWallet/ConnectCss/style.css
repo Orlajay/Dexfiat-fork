@@ -1,0 +1,1254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,900&display=swap');
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: unset;
+    margin: unset;
+    align-items: center;
+}
+
+
+
+/* INDEX  */
+.fullFlex {
+    display: flex;        
+    font-family: Apercu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #13293D;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+
+.Snd{
+    
+width: 370px;
+height: 60px;
+
+background: #FC8510;
+border-radius: 40px;
+border-color:#FC8510 ;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 100%;
+ border: none;
+}
+
+.chatbox{
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
+    border-radius: 10px 10px 0px 10px;
+    padding:1em;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV */
+.Menu{
+    background: #F6F6F5;
+     flex-direction: column;
+            display: flex;
+            justify-content: space-around;
+}
+
+
+
+
+
+
+.furniture{  
+         background: #F6F6F5;
+}
+
+.drop{
+    font-size: 10px;
+    
+}
+
+.how{
+        font-size: 8px;
+        
+}
+.lowcontent{
+    background: #F6F6F5;
+        border-radius: 4px;
+        font-size: 8px;
+        padding: 1px;padding-left: 10px;
+    
+
+}
+.about{
+            
+    background: #F6F6F5;
+        border-radius: 4px;
+        font-size: 10px;
+        padding: 1px;
+        padding-left: 10px;
+
+}
+
+
+
+
+
+
+.box{
+    background: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    width: 310px;
+}
+
+
+.middleContent{
+    padding-bottom: 8em;
+    padding-top: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid #D0D0D0
+    
+   
+
+}
+
+body{
+    margin: 0;
+}
+
+
+.topnavimg{
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+    border-bottom: 2px solid #D0D0D0;
+
+}
+
+
+
+.bottom{
+    padding: 1em;   
+}
+
+
+
+
+
+.quick{
+    font-size: 12px
+}
+.req{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.footbox{
+    padding-right: 1em;
+
+}
+.pickbox{
+    padding-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.furnish{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8px;
+    padding: 1em;
+}
+.cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.pack{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+
+
+
+
+
+
+.wishimg{
+    display: flex;
+}
+.wishlist{
+
+}
+.wish{
+    border-bottom: 1px solid #D0D0D0;
+}
+
+
+
+
+.pick{
+    font-size: 12px;
+}
+.pickimg{
+    display: flex;;
+}
+.pickorder{
+
+}
+
+
+
+
+
+
+.lagimg{
+    display: flex;
+    padding-right: 5px
+}
+.lag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F6F6F5;
+    padding-left: 16px;
+    font-size: 11px;
+}
+.lagos{
+
+}
+
+.margin{
+    margin: 6px;
+}
+.marginl{
+    margin: 2px
+}
+
+
+
+
+
+
+
+
+
+
+
+/*dexfiat*/
+
+.dexfiat{
+    background: #F6F6F5;
+     flex-direction: column;
+            display: flex;
+            justify-content: space-around;
+}
+.dexfiatbox{
+    background: #FFFFFF;
+    width: 270px;
+    padding-bottom: 250px;
+}
+
+.topimg{
+    display: flex;
+    align-items: center;
+}
+
+.cross{
+    display: flex;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.wallet{
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+
+
+.multi{
+    padding: 6px;
+}
+.multiwallet{
+     background: #0095060F;
+     border-radius: 10px;
+     font-size: 10px;
+     padding: 4px;
+     padding-left: 48px;
+     
+}
+
+
+.line{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.linethrough{
+    border-bottom: 1px solid #D0D0D0;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*dexfiatsecure*/
+.topbar{
+    
+}
+
+.dexfiatsec{
+    background: #FFFFFF;
+    padding: 30px;
+    width: 250px;
+    padding-bottom: 230p
+}
+
+.lowerdex{
+    text-align: center;
+}
+
+.dexlogo{
+    padding-bottom: 20px;
+    color: #009506;
+
+}
+
+.enter{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.otp{
+    font-size: 10px;
+}
+
+.inputp{
+    background: #F6F6F5;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+.cont{
+    background: #009506;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 11px;
+    margin-top: 8px;
+    padding: 3px;
+    box-shadow: 0px 1px 1px 3px rgb(0 0 0 / 7%);
+}
+
+.reset{
+    font-size: 10px;
+    padding-top: 10px;
+}
+.rsnd{
+    color: #009506;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*dexfiatdemo*/
+.dexfiatdemo{
+    background: #F6F6F5;
+    flex-direction: column;
+           display: flex;
+           justify-content: space-around;
+}
+.dexfiatstake{
+    width: 350px;
+    background: white;
+}
+
+.topdemo{
+     background: #009506;
+     padding: 15px;
+}
+.democracy{
+    padding-left: 8px;
+    color: white;
+    font-size: 25px;
+}
+.launchpad{
+    padding-left: 30px;
+}
+.launchprop{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+.referendums{
+    display: flex;
+    justify-content: space-around;
+}
+.refd{
+    
+}
+.launchp{
+    
+}
+
+
+
+
+
+
+.lowerdemo{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+.lowerdemos{
+    background: #0095060D;
+    box-shadow: 0px 5px 0px 1px rgb(0 0 0 / 7%);
+    border-radius: 0px 0px 20px 20px;
+}
+.validatorbox{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #D0D0D0;
+    padding: 8px;
+    
+}
+.validatorc{
+    
+}
+/*
+.staking{
+    display: flex;
+    justify-content: space-between;
+    padding-top
+}
+
+/*
+.nay{
+    border-radius: 10px;
+    background: #808080;
+}
+
+
+.clockimg{
+    display: flex;
+    font-size: 12px;
+}
+.time{
+    padding-left: 4px;
+    color: #DAAA02;
+}
+.idealset{
+    display: flex;
+    justify-content: space-between;
+}
+.detailsimg{
+    display: flex;
+    font-size: 12px;
+}
+.sidebox{
+    display: fle;
+}
+.aye{
+    margin-bottom: 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background: #009506;
+}
+.nay{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.linebox{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #D0D0D0;
+    padding: 8px;
+}
+.lineboxe{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #D0D0D0;
+    padding: 8px;
+}
+.lineu{
+    border-bottom: 2px solid white;
+}
+.linex{
+    border-bottom: 2px solid #C4C4C4;
+}
+.thirdstake{
+    
+    
+}
+.footdemo{
+   
+    padding-top: 100px;
+}
+.attention{
+    border-top: 2px solid #C4C4C4;
+    padding: 12px;
+}
+.lineref{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.launchline{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+
+.margins{
+    margin: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*dexfiatconfirm*/
+
+
+.confirmtop{
+    background: #E5E5E5;
+    flex-direction: column;
+    display: flex;
+   
+}
+.confirmbox{
+    background: #F6F6F5;
+    width: 325px;
+    padding-bottom: 80px;
+}
+
+.topimg{
+    display: flex;
+    padding-right: 40px;
+}
+
+.topconfirm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+
+.toppool{
+    display: flex;
+    justify-content: space-between;
+}
+
+.swapimg{
+    display: flex;    
+}
+
+.swapbox{
+    color: #009506;
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+.topswap{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(0, 149, 6, 0.1);
+}
+
+.swappool{
+    padding-left: 1.5em;
+}
+
+
+
+.dexpool{
+    color: #009506;
+    font-size: 13px;
+    border-radius: 10px; 
+    padding: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background: rgba(0, 149, 6, 0.1);
+}
+
+.savewallet{
+    background: #009506;
+    border-radius: 0px 8px 8px 0px;
+    padding: 12px;
+    width: 100px;
+
+}
+.walletimg{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.wallets{
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 4px;
+}
+
+
+
+.bottompay{
+    padding: 50px;
+}
+
+.investpay{
+    text-align: center;
+    background: white;
+    padding-bottom: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px 1px rgb(0 0 0 / 7%);
+}
+
+.bigtick{
+    font-size: 70px;
+    color: #009506;
+}
+
+.transdetail{
+    font-size: 12px;
+    color:#009506;
+}
+
+.confirmed{
+    font-size: 16px;
+
+}
+
+
+.margins{
+    margin: 0px;
+}
+
+
+
+
+
+
+/*DNGN*/
+
+
+
+.nairatop{
+    background: #E5E5E5;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.nairabox{
+    background: #F6F6F5;
+    width: 290px;
+    padding: 25px;
+}
+
+.toparrow{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.dexfiatnaira{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.dexnaira{
+    font-size: 16px;
+}
+
+.TwoHundred{
+    font-size: 10px;
+}
+
+.pastebox{
+    text-align: right;
+    font-size: 12px;
+    color: #494949;
+    padding-right: 8px;
+    
+}
+
+
+
+.recievebox{
+    padding: 12px;
+    border: 1px solid #009706;
+    border-radius: 10px;
+}
+
+.addressbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    color: #808080;
+   
+}
+
+
+.amt{
+    font-size: 10px;
+    padding-right: 2px;
+}
+
+.maxpay{
+    color: #009506;
+}
+
+
+.maxamount{
+    padding: 15px;
+    border: 1px solid #009706;
+    border-radius: 10px;
+}
+
+.trans{
+    color: #009506;
+    font-size: 12px;
+    text-align: right;
+}
+
+.sendfoot{
+    padding-bottom: 160px;
+}
+
+.sendbase{
+    padding: 10px;
+    background: #009506;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+/*LiquidityTable*/
+.tablebox{
+    background: #F6F6F5;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Entop{
+    background: #FFFFFF;
+    width: 390px;
+    padding-bottom: 250px;
+}
+
+.DexEn{
+    background: #009506;
+
+}
+
+.EnImg{
+    display: flex;
+    align-items: end;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-left: 40px;
+    border-bottom: 1px solid white;
+}
+
+.Hen{
+    padding-left: 8px;
+    color: #4C5FEF;
+
+}
+.newpools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #009506;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.poolcont{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white
+}
+
+.marrgin{
+    margin: 2px;
+}
+
+.magnifiers{
+    background: white;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid white
+}
+
+.benefit{
+    text-align: center;
+}
+
+.dexfiatpools{
+    padding: 18px;
+    font-size: 25px
+}
+
+.enjoy{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #333333;
+}
+
+.polls{
+    padding-right: 12px;
+    padding-left: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.vectorimg{
+    padding-bottom: 1px;
+}
+
+
+.poolname{
+    background: #F0F3F9;
+
+}
+.rewards{
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.playbox{
+    background: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 4px;
+}
+
+
+
+.playcontain{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.playimg{
+padding-left: 8px;
+}
+
+.meancross{
+    font-size: 15px;
+}
+
+.tablecell{
+    padding-right: 5px;
+}
+
+.percent{
+    background: #F6F7FF;
+    border-radius: 12px;
+    padding-right: 5px;
+    text-align: center;
+    color: #4C5FEF;
+}
+
+.hours{
+    text-align: right;
+}
+
+.dollars{
+    text-align: center;
+    padding-right: 5px;
+
+}
+
+.decimal{
+    text-align: right;
+    padding-right: 13px;
+    color: #4C5FEF;
+
+}
+
+.millions{
+    text-align: center;
+}
+
+.transfers{
+    text-align: left;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/*CryptoGateway*/
+
+.gatewaybox{
+    background: #F6F6F5;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.topgate{
+    background: #FFFFFF;
+    width: 600px;
+}
+
+.crypto{
+    padding-top: 35px;
+}
+
+
+.FiatTop{
+    padding-left: 50px;
+}
+
+.decentralized{
+    display: flex;
+    align-items: center;
+    background: url('.');
+    padding-left: 20px;
+
+}
+
+
+.fadeBg{
+    background: url('../Ellipse\ 12.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 350px;
+    min-height: 350px;
+}
+
+
+.central{
+    font-size: 22px;
+    text-align: center;
+    width: 230px;
+}
+
+
+.power{
+    font-size: 12px;
+    text-align: center;
+}
+
+.lowbutton{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.takebutton{
+    background: #009506;
+    border-radius: 14px;
+    text-align: center;
+    padding: 8px;
+}
+
+.take{
+    font-size: 12px;
+    color: white;
+}
+
+
+.footsocial{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.footmedia{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Bridgepool*/
+
+.Bridgepool{
+    background: #d0d0d0;
+    flex-direction: column;
+    display: flx;
+    justify-content: space-around;
+}
+
+.bridgebox{
+    background: #f6f6f5;
+    width: px; 
+}
+
+
+
+.bridgetop{
+    padding: 25px;
+    background: rgb(0 149 6 / 2%);
+}
+
+.swapout{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+
+
+.topacct{
+    padding-right: 40px
+}
+
+
+.firstswap{
+    border-radius: 6px;
+    background: rgba(0, 149, 6, 0.1);
+    padding: 10px;
+}
+
+.stack{
+    display: flex;
+    align-items: center;
+}
+
+.tripod{
+    font-size: 12px;
+    padding-left: 5px;
+    color: green;
+}
+
+.bridgetop{
+    background: #f4fff4;
+}
+
+.probox{
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+}
+
+
+
+.dextext{
+    font-size: 12px;
+    padding-left: 5px;
+    color: green;
+}
+
+.connectW{
+    font-size: 10px;
+    padding: 6px;
+    color: green;
+    background:rgba(218, 171, 3, 0.1);
+    width: 55px;
+    text-align: center;
+    border-radius: 6px;
+} 
+
+
+.stackses{
+    border-radius: 6px;
+    padding-right: 35px;
+}
+.middlebelt{
+    padding-bottom: 60px;
+    background: rgb(249 246 177 / 7%);
+}
+
+.totalbox{
+    background: #ffffec;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.totalled{
+    background: linear-gradient(180deg, #000000 0%, #009506 100%);
+    color: white;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    border-radius: 20px;
+    font-size: 12px;
+    box-shadow: 2px 2px 3px 2px #ffffcc;
+}
+
+.totalcontain{
+    background: white;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 20px;
+}
+
+
+.footconnect{
+   
+}
+
+
+.outer{
+    display: flex;
+}
+
+.connectway{
+    padding-left: 5px;
+    font-size: 10px;
+    font-size: 12px;
+}
+
+.stackup{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+
+.balanced{
+    padding-bottom: 50px;
+}
+
+.LeftSlide{
+    display: flex;
+    justify-content: center;
+}
+
+.navigates{
+    padding-right: 3px;
+}
+
+
+
+.Underborder{
+    padding-bottom: 78px;
+}
+
+
+.transP{
+    border: 1px solid #E7E7E7;
+    
+}
