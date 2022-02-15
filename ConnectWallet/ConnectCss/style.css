@@ -1176,12 +1176,33 @@ padding-left: 8px;
 
 .totalbox{
     background: #ffffec;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 30px;
     padding-bottom: 50px;
     border-radius: 10px;
 }
+
+.totalcoin{
+
+}
+
+
+@media(min-width:800px){
+    .totalbox{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+
+    .totalcontain{
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+}
+
+
 
 .totalled{
     background: linear-gradient(180deg, #000000 0%, #009506 100%);
@@ -1197,8 +1218,8 @@ padding-left: 8px;
 .totalcontain{
     background: white;
     padding-top: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 10px;
+    padding-right: 10px;    
     border-radius: 20px;
 }
 

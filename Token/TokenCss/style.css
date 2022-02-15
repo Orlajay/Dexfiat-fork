@@ -1090,16 +1090,21 @@ padding-left: 8px;
 .Bridgepool{
     background: #d0d0d0;
     flex-direction: column;
-    display: flex;
+    display: flx;
     justify-content: space-around;
 }
 
 .bridgebox{
     background: #f6f6f5;
-    width: 600px; 
+    width: px; 
 }
 
 
+
+.bridgetop{
+    padding: 25px;
+    background: rgb(0 149 6 / 2%);
+}
 
 .swapout{
     display: flex;
@@ -1117,7 +1122,7 @@ padding-left: 8px;
 .firstswap{
     border-radius: 6px;
     background: rgba(0, 149, 6, 0.1);
-    padding: 8px;
+    padding: 10px;
 }
 
 .stack{
@@ -1132,7 +1137,7 @@ padding-left: 8px;
 }
 
 .bridgetop{
-    
+    background: #f4fff4;
 }
 
 .probox{
@@ -1141,140 +1146,262 @@ padding-left: 8px;
     padding-left: 180px;
 }
 
-.savewalletS{
-    background: #009506;
-    border-radius: 6px;
-    padding: 12px;
-    width: 75px
-}
 
 
-.walletboxes{
-    padding-left: 150px;
-    padding-op: 100px;
-}
-
-.poolwallets{
-    font-size: 10px;
-    color: white;
+.dextext{
+    font-size: 12px;
     padding-left: 5px;
-}
-
-.underwallet{
-    background: #f6f7ff;
-    padding-top: 20px;
-}
-
-
-
-
-
-.downswap{
-    text-align: center;
-}
-
-.marketbox{
-    display: flex;
-  padding-left: 178px;
-  padding-bottom: 20px;
-}
-
-.markettop{ 
-    border: 2px solid green;
-    padding: 1px;
-    border-radius: 5px;
-    width: 38px;
-}
-
-
-
-
-.market{
     color: green;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 8px;
-    padding: 3px;
 }
 
-.limittop{  
-    padding-left: 10px;
-}
-
-
-
-
-.limit{
+.connectW{
+    font-size: 10px;
+    padding: 6px;
     color: green;
+    background:rgba(218, 171, 3, 0.1);
+    width: 55px;
+    text-align: center;
+    border-radius: 6px;
+} 
+
+
+.stackses{
+    border-radius: 6px;
+    padding-right: 35px;
+}
+.middlebelt{
+    padding-bottom: 60px;
+    background: rgb(249 246 177 / 7%);
+}
+
+.totalbox{
+    background: #ffffec;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.totalcoin{
+
+}
+
+
+@media(min-width:800px){
+    .totalbox{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+
+    .totalcontain{
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+}
+
+
+
+.totalled{
+    background: linear-gradient(180deg, #000000 0%, #009506 100%);
+    color: white;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    border-radius: 20px;
+    font-size: 12px;
+    box-shadow: 2px 2px 3px 2px #ffffcc;
+}
+
+.totalcontain{
     background: white;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 8px;
-    padding: 5px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    border-radius: 20px;
 }
 
-.limitbox{
-    padding: 1px;
-    border-radius: 5px;
-    width: 38px;
-    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.07);
+
+.footconnect{
+   
 }
 
-.Unsend{
+
+.outer{
     display: flex;
-    justify-content: space-between;
 }
 
-.Yousend{
-    padding-left: 100px;
-}
-
-.youbal{
-    padding: 1px;
-    border-radius: 5px;
-    width: 230px;
-    border: 1px solid #c4c4c4;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 8px;
-    padding: 5px;
-}
-
-.whitebal{
-    border-radius: 5px;
-    text-align: center;
-    font-size: 8px;
-    padding: 5px;
-}
-
-.zeroes{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ZeroPoint{
-    font-size: 20px;
-}
-
-.MaxUp{
-    color: green;
-    padding-left: 50px;
-}
-
-.Linked{
-    padding: 3px;
-    border: 1px solid #c4c4c4;
-    border-radius: 4px;
-}
-
-.Links{
-    display: flex;
-    align-items: center;
+.connectway{
+    padding-left: 5px;
+    font-size: 10px;
     font-size: 12px;
 }
 
-.Linkpad{
-    padding-left: 4px;
-    padding-right: 4px;
+.stackup{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+
+.balanced{
+    padding-bottom: 50px;
+}
+
+.LeftSlide{
+    display: flex;
+    justify-content: center;
+}
+
+.navigates{
+    padding-right: 3px;
+}
+
+
+
+.Underborder{
+    padding-bottom: 78px;
+}
+
+
+.transP{
+    border: 1px solid #E7E7E7;
+    
+}
+
+
+
+
+
+
+
+
+
+/*Token*/
+
+
+.tokenTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tokenbox{
+    padding: 20px;
+}
+
+@media(min-width:800px){
+    .tokenbox{
+        padding: 300px;
+    }
+}
+
+.tokenArea{
+    background: #009506;
+    border-radius: 17px;
+    padding-top: 60px;
+}
+
+.searchBox{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+@media(min-width:800px){
+    .searchBox{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.searchArea{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.addressSearch{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.etherBox{
+    display: flex;
+    justify-content:space-evenly;
+    background: #009506;
+    padding: 10px;
+}
+
+
+
+.etherTop{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ether{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.space{
+    padding-left: 3px;
+    font-size: 12px;
+}
+
+
+.etherLow{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 118px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+@media(min-width:800px){
+    .etherLow{
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 118px;
+        padding-left: 8px;
+        padding-bottom: 30px;
+    }
+}
+
+.topHarmony{
+    display: flex;
+    align-items: center;
+}
+
+
+.harmonySpace{
+    border: 1px solid black;
+}
+
+.newHarm{
+    padding-top: 5px;
+}
+
+.harmonyTable{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.oneCoin{
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.correct{
+    font-size: 10px;
 }
